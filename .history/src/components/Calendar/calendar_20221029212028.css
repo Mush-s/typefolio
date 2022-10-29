@@ -1,0 +1,13 @@
+.calendar {
+  width: 90%;
+  height: 90%;
+}
+
+@media screen and (max-width: 959px) {
+  .calendar {
+    width: 70%;
+    height: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+}

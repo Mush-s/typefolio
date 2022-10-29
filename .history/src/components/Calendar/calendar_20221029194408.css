@@ -1,0 +1,8 @@
+.flex {
+  display: flex;
+}
+
+.calendar {
+  margin-top: 90px;
+  width:300px
+}

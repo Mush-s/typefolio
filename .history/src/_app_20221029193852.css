@@ -1,0 +1,8 @@
+.flex {
+  display: flex;
+  width: 100%;
+}
+
+.side{
+  text-align: center;
+}

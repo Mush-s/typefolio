@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+  /* margin-top:80px; */
+  background-color:red
+}
+
+.main{
+  width:500px
+}
+
+@media screen and (max-width: 480px) {
+.flex{
+  display: block;
+  background-color:red;
+}
+}

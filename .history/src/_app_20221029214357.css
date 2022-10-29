@@ -1,0 +1,14 @@
+.flex {
+  display: flex;
+  margin-top:80px;
+}
+
+
+
+
+/* @media screen and (max-width: 480px) {
+.flex{
+  display: block;
+  background-color:red;
+}
+} */
