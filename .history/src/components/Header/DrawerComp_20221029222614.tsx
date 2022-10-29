@@ -16,6 +16,7 @@ interface Page {
   }[];
 }
 const DrawerComp = (props: Page) => {
+  const { name, link } = props.pages;
   const [openDrawer, setOpenDrawer] = useState(false);
   return (
     <div>
@@ -23,7 +24,7 @@ const DrawerComp = (props: Page) => {
         <List>
           {props.pages.map((page) => (
             <li key={page.link}>
-              <ListItemButton href={page.link}>
+              <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>{page.name}</ListItemText>
                 </ListItemIcon>

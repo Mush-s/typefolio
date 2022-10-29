@@ -17,7 +17,7 @@ const Header = () => {
 
   const theme = useTheme();
   const isMatch = useMediaQuery(theme.breakpoints.down("md"));
-  const PAGES = [
+  const PAGE = [
     { name: "add friend", link: "nveo" },
     { name: "about me", link: "nvoenv" },
     { name: "contact me", link: "nove" },
@@ -31,7 +31,7 @@ const Header = () => {
         {isMatch ? (
           <>
             <Typography sx={{ margin: "auto" }}>MEMO TO TALK</Typography>
-            <DrawerComp pages={PAGES} />
+            <DrawerComp page={PAGE} />
           </>
         ) : (
           <>
@@ -41,7 +41,7 @@ const Header = () => {
               value={value}
               onChange={() => setValue}
             >
-              {PAGES.map((page, index) => (
+              {PAGE.map((page, index) => (
                 <Tab key={index} label={page.name} href={page.link} />
               ))}
             </Tabs>

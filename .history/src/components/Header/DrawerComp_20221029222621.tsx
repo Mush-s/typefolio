@@ -23,7 +23,7 @@ const DrawerComp = (props: Page) => {
         <List>
           {props.pages.map((page) => (
             <li key={page.link}>
-              <ListItemButton href={page.link}>
+              <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>{page.name}</ListItemText>
                 </ListItemIcon>

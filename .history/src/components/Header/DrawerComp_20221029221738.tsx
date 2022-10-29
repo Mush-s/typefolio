@@ -10,10 +10,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import React, { useState } from "react";
 
 interface Page {
-  pages: {
-    name: string;
-    link: string;
-  }[];
+  page: {
+    name: string[];
+    link: string[];
+  };
 }
 const DrawerComp = (props: Page) => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -21,9 +21,9 @@ const DrawerComp = (props: Page) => {
     <div>
       <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)}>
         <List>
-          {props.pages.map((page) => (
-            <li key={page.link}>
-              <ListItemButton href={page.link}>
+          {props.page.map((page) => (
+            <li key={page}>
+              <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>{page.name}</ListItemText>
                 </ListItemIcon>

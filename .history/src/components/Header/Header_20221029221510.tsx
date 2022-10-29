@@ -17,12 +17,7 @@ const Header = () => {
 
   const theme = useTheme();
   const isMatch = useMediaQuery(theme.breakpoints.down("md"));
-  const PAGES = [
-    { name: "add friend", link: "nveo" },
-    { name: "about me", link: "nvoenv" },
-    { name: "contact me", link: "nove" },
-    { name: "nvineovnv", link: "nvoen" },
-  ];
+  const PAGE = ["add friend", "about me", "contact me", "nvineovnv"];
   return (
     <AppBar>
       <Toolbar>
@@ -31,7 +26,7 @@ const Header = () => {
         {isMatch ? (
           <>
             <Typography sx={{ margin: "auto" }}>MEMO TO TALK</Typography>
-            <DrawerComp pages={PAGES} />
+            <DrawerComp page={PAGE} />
           </>
         ) : (
           <>
@@ -41,8 +36,8 @@ const Header = () => {
               value={value}
               onChange={() => setValue}
             >
-              {PAGES.map((page, index) => (
-                <Tab key={index} label={page.name} href={page.link} />
+              {PAGE.map((page, index) => (
+                <Tab key={index} label={page} href={link}/>
               ))}
             </Tabs>
           </>

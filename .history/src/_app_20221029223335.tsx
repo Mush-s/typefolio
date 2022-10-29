@@ -5,10 +5,11 @@ import Styled from "./style/Styled";
 import Header from "./components/Header/Header";
 import FriendList from "./components/Friend/FriendList";
 import "./_app.css";
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
-    <Styled>
+    <BrowserRouter>
       <Header />
       <div className="flex">
         <Calendar />
@@ -17,7 +18,7 @@ const App = () => {
         </div>
       </div>
       <Todo />
-    </Styled>
+    </BrowserRouter>
   );
 };
 
