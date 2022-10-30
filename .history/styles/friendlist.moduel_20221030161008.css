@@ -1,0 +1,9 @@
+.friendlists{
+  width:100%
+}
+
+.friendlist {
+  text-align: center;
+  margin-top: 90px;
+  overflow: scroll;
+}

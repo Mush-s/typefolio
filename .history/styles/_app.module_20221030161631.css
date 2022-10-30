@@ -1,0 +1,17 @@
+.flex {
+  display: flex;
+  margin-top: 80px;
+}
+
+.sub {
+  overflow: scroll;
+}
+
+@media screen and (max-width: 500px) {
+  .flex {
+    display: block;
+  }
+  .sub {
+    display: none;
+  }
+}

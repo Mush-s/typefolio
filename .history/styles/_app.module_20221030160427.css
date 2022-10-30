@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+  margin-top:80px;
+}
+
+.sub{
+  overflow: scroll;
+}
+
+
+@media screen and (max-width: 400px) {
+.flex{
+  display: block;
+  background-color:red;
+}
+}
