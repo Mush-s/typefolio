@@ -10,15 +10,12 @@ import {
   CircularProgress,
   Modal,
   Typography,
-  useMediaQuery,
-  useTheme,
 } from "@mui/material";
 import { Box } from "@mui/system";
 import { useMutation, useQuery } from "@apollo/client";
 import { GET_POSTS, CREATE_POST } from "../../Post/Posts";
-import "./calendar.css";
+import styles from "../../../styles/calendar.module.css"
 import { doReload } from "../../function/Reload";
-
 
 const Calendar: React.FC = () => {
   const [eventTitle, setEventTitle] = useState<string>("");
@@ -29,8 +26,6 @@ const Calendar: React.FC = () => {
   const [errorAlert, setErrorAlert] = useState<boolean>(false);
   const { data, error, loading } = useQuery(GET_POSTS);
   const [CreatePost] = useMutation(CREATE_POST);
-
-
 
   useEffect(() => {
     if (alert || errorAlert) {
@@ -71,7 +66,7 @@ const Calendar: React.FC = () => {
           title: eventTitle,
           content: eventContent,
           date: eventDay,
-          length: posts.length + 1,
+          length: 1 + Math.floor(Math.random() * 100000),
         },
       });
       setAlert(true);
@@ -89,7 +84,7 @@ const Calendar: React.FC = () => {
     setErrorAlert(false);
   }
   return (
-    <div className="calendar">
+    <div className={styles.calendar}>
       {alert && (
         <Alert
           onClose={() => {

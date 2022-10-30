@@ -1,6 +1,7 @@
 import { List } from "@mui/material";
 import React from "react";
 import Friend from "./Friend";
+import styles from "../../../../styles/friendList.module.css"
 
 export const friends = [
   { id: "nkve", name: "jfoe", link: "nvoe" },
@@ -22,7 +23,7 @@ export const friends = [
 
 const FriendList = () => {
   return (
-    <div className="friendlist">
+    <div >
       <List sx={{maxHeight:"50px"}}>
         {friends.map((friend) => (
           <li key={friend.id}>

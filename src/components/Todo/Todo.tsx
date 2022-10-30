@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TodoList from "./TodoList";
-import "./Todo.css";
+import styles from "../../../styles/todo.module.css";
 
 const Todo = () => {
   const [value, setValue] = useState<string>("");
@@ -44,7 +44,7 @@ const Todo = () => {
   }
   return (
     <div>
-      <h1 className="todo">Todo</h1>
+      <h1 className={styles.todo}>Todo</h1>
       <form
         onSubmit={(e) => {
           submitHandler(e);

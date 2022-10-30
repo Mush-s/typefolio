@@ -4,11 +4,10 @@
 	"description": "",
 	"main": "main.js",
 	"scripts": {
-		"build": "webpack --mode=development",
-		"start": "webpack serve --mode=development",
-		"start:dev": "nodemon --watch './**/*.tsx' --exec 'ts-node' src/index.tsx",
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "webpack serve --open"
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
 	},
 	"keywords": [],
 	"author": "",
@@ -48,7 +47,11 @@
 		"@types/react-dom": "^18.0.6",
 		"@types/react-router": "^5.1.19",
 		"@types/react-router-dom": "^5.3.3",
+		"css-modules-typescript-loader": "^4.0.1",
 		"graphql": "^16.6.0",
+		"next": "^13.0.0",
+		"next-remove-imports": "^1.0.8",
+		"next-transpile-modules": "^9.1.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-router": "^6.4.2",
