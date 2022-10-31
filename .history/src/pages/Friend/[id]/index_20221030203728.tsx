@@ -1,0 +1,28 @@
+import { Button } from "@mui/material";
+import { useRouter } from "next/router";
+import React from "react";
+import { GET_FRIENDS } from "../../../Prisma/Friend";
+import { useQuery } from "@apollo/client";
+import { GET_POSTS } from "../../../Prisma/Post";
+
+const FriendContent = () => {
+  const { data, error, loading } = useQuery(GET_FRIENDS);
+  const router = useRouter();
+  const friendId = router.query.id;
+  
+  if (error) return <div>error</div>;
+  if (loading) return <div>loading</div>;
+
+  const { posts } = data;
+
+  console.log(posts);
+
+  return (
+    <div>
+      <div>{friendId}</div>
+      <Button href="/">back</Button>
+    </div>
+  );
+};
+
+export default FriendContent;
