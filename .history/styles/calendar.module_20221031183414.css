@@ -1,0 +1,15 @@
+.calendar {
+  width: 90%;
+  height: 90%;
+}
+
+.input-color{
+  width:70px
+}
+
+@media screen and (max-width: 700px) {
+  .calendar {
+    width: 100%;
+    height: 100%;
+  }
+}
