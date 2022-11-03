@@ -1,0 +1,5 @@
+.delete {
+  border: solid 1px black;
+  border-radius: 10px;
+  display: flex;
+}

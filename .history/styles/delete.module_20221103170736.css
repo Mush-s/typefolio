@@ -1,0 +1,16 @@
+.delete {
+  border: solid 1px black;
+  border-radius: 10px;
+  display: flex;
+  background-color: aqua;
+  margin-bottom:10px;
+}
+
+.delete .name{
+    margin-left:15px;
+    text-align: center;
+}
+
+.delete .botton{
+    margin-left:50px
+}
