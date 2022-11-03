@@ -1,0 +1,17 @@
+.delete {
+  border: solid 1px rgb(222, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  background-color: rgb(222, 255, 255);
+  margin-bottom: 10px;
+}
+
+.delete .name {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.delete .button {
+  margin-left: 50px;
+}

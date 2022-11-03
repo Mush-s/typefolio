@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  background-color: antiquewhite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 250px;
+}
