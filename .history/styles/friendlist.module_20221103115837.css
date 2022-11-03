@@ -1,0 +1,12 @@
+.friendlist {
+  display: block;
+  text-align: center;
+  overflow: scroll;
+  width:100%;
+  font-size: large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.friendlist ul{
+  font-size: 50px;
+}

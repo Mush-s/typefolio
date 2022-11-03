@@ -1,0 +1,11 @@
+.friendlist {
+  display: block;
+  text-align: center;
+  overflow: scroll;
+  width:100%;
+}
+
+.friendlist ul{
+  font-size: 50px;
+  border: solid 10px black;
+}
