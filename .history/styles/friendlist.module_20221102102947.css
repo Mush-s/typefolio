@@ -1,0 +1,14 @@
+.friendlists{
+  width:100%;
+}
+
+.friendlist {
+  display: block;
+  text-align: center;
+  overflow: scroll;
+  width:100%;
+}
+
+.friendlist .noone{
+  font-size: 10px;
+}

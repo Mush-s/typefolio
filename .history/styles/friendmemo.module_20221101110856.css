@@ -1,0 +1,8 @@
+.friendmemo {
+  background-color: red;
+}
+
+.friendmemo .block {
+  border: 5px solid black;
+  margin-bottom: 2px;
+}
