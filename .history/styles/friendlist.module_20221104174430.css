@@ -1,0 +1,8 @@
+.friendlist {
+  display: block;
+  width:100%;
+}
+
+.friendlist ul{
+  font-size: 50px;
+}

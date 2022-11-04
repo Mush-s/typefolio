@@ -1,0 +1,16 @@
+.friendlist {
+  display: block;
+  width: 100%;
+  height: 650px;
+  overflow: scroll;
+  text-align: center;
+}
+
+.friendlist .input {
+  margin: 0 auto;
+  height: 50px;
+  width: 90%;
+}
+.friendlist ul {
+  font-size: 50px;
+}

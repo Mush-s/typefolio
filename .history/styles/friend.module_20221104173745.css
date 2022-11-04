@@ -1,0 +1,23 @@
+.friend {
+  width: 350px;
+  height: 100px;
+  border-radius: 10px;
+  border: solid 1px rgb(161, 179, 179);
+  line-height: 100px;
+}
+
+@media screen and (max-width: 959px) {
+  .friend {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .friend {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .friend {
+    width: 50px;
+  }
+}

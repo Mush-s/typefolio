@@ -1,0 +1,17 @@
+.home .flex {
+  display: flex;
+  margin-top: 80px;
+}
+
+.main {
+  margin-top: 0;
+}
+.sub {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  .sub {
+    display: none;
+  }
+}

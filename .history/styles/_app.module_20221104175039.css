@@ -1,0 +1,15 @@
+.home .flex {
+  display: flex;
+  margin-top: 80px;
+
+}
+
+.sub {
+  overflow: scroll;
+}
+
+@media screen and (max-width: 700px) {
+  .sub {
+    display: none;
+  }
+}
