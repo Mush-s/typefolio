@@ -1,0 +1,21 @@
+.friend {
+  height: 100px;
+  line-height: 100px;
+}
+
+
+@media screen and (max-width: 959px) {
+  .friend {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .friend {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .friend {
+    width: 50px;
+  }
+}
