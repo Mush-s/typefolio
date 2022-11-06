@@ -1,0 +1,31 @@
+.friendmemo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.friendmemo .block {
+  border-bottom: 1px solid rgb(196, 196, 196);
+  background-color: rgb(249, 249, 249);
+  margin-bottom: 2px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.friendmemo .name {
+  font-size: 30px;
+}
+
+.friendmemo .title {
+  margin-bottom: 15px;
+  color: rgb(0, 0, 0);
+}
+
+.friendmemo .content {
+  margin-bottom: 15px;
+  color: rgb(77, 77, 77);
+}
+
+.friendmemo .date {
+  margin-bottom: 15px;
+  color: rgb(19, 91, 158);
+}

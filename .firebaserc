@@ -1,8 +1,0 @@
-{
-  "projects": {
-    "default": "typescript-portfolio-e529d",
-    "staging": "typescript-portfolio-e529d"
-  },
-  "targets": {},
-  "etags": {}
-}
