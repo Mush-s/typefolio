@@ -19,8 +19,8 @@ const Header = () => {
   const PAGES = [
     { name: "add friend", link: "/Friend/Add" },
     { name: "delete friend", link: "/Friend/Delete" },
-    { name: "coming soon", link: "/Coming soon" },
-    { name: "coming soon", link: "/Coming soon" },
+    { name: "coming soon", link: "/Coming soon!" },
+    { name: "coming soon", link: "/Coming soon!" },
   ];
   return (
     <AppBar>
