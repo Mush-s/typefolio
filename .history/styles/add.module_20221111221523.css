@@ -1,0 +1,19 @@
+.container {
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  text-align: end;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  margin-top: 250px;
+}
+.rule {
+  position: absolute;
+  top: 90%;
+  left: 60%;
+background-color: rgb(208, 255, 255);
+  margin-top: 50px;
+}

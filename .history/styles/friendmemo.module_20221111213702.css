@@ -1,0 +1,53 @@
+.friendmemo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.center {
+  text-align: center;
+}
+.friendmemo .block {
+  border-bottom: 3px solid rgb(196, 196, 196);
+  background-color: #e5e5e5;
+  margin-bottom: 7px;
+  width: 32%;
+  height: 100%;
+  margin-right: 15px;
+}
+.friendmemo .done {
+  border-bottom: 3px solid rgb(196, 196, 196);
+  background-color: #224ff1;
+  margin-bottom: 7px;
+  width: 32%;
+  height: 100%;
+  margin-right: 15px;
+}
+
+.friendmemo .title {
+  margin-bottom: 15px;
+  color: rgb(0, 0, 0);
+}
+
+.friendmemo .content {
+  margin-bottom: 15px;
+  color: rgb(77, 77, 77);
+  text-align: center;
+}
+
+.friendmemo .date {
+  margin-bottom: 15px;
+  color: rgb(19, 91, 158);
+  text-align: end;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .friendmemo .block {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .friendmemo .block {
+    width: 100%;
+  }
+}

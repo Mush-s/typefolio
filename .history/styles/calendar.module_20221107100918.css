@@ -1,0 +1,39 @@
+.calendar {
+  width: 90%;
+  height: 90%;
+}
+
+.input {
+  display: flex;
+  flex-flow: column;
+}
+
+.flex {
+  /* display: flex; */
+  width: 100%;
+}
+
+.eventList {
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 1200px) {
+  .calendar .flex {
+    display: flex;
+  }
+
+  .calendar .main {
+    width: 60%;
+    margin-right: 10px;
+  }
+
+  .calendar .side {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .calendar {
+    width: 100%;
+    height: 100%;
+  }
+}

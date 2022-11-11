@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  text-align: end;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  margin-top: 250px;
+}
+.rule {
+  position: absolute;
+  top: 90%;
+  left: 60%;
+  background-color: rgb(237, 254, 254);
+  border-radius: 10px;
+  margin-top: 50px;
+  width: 30%;
+  height: 40%;
+}
+.rule .title {
+  text-align: center;
+}
+
+.rule .high {
+  color: rgb(255, 0, 0);
+}
+.rule .uni {
+  color: rgb(0, 255, 0);
+}
+.rule .jun {
+  color: rgb(0, 0, 255);
+}
