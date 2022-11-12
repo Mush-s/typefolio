@@ -4,7 +4,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 import "../../styles/global.css";
 function MyApp({ Component, pageProps }: AppProps) {
   const client = new ApolloClient({
-    uri: "http://localhost:4000/",
+    uri: "https://typefolo-backend.vercel.app",
     cache: new InMemoryCache(),
   });
 
