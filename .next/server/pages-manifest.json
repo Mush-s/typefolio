@@ -1,6 +1,11 @@
 {
-  "/_app": "pages/_app.js",
+  "/Friend/Add": "pages/Friend/Add.html",
+  "/Friend/Delete": "pages/Friend/Delete.html",
   "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/": "pages/index.html",
+  "/Friend": "pages/Friend.html",
+  "/Friend/[id]": "pages/Friend/[id].html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
