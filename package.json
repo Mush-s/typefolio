@@ -44,7 +44,7 @@
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.11",
     "@mui/styled-engine-sc": "^5.0.0-rc.1",
-    "@next/swc-darwin-arm64": "^13.0.0",
+    "@next/swc-darwin-arm64": "^13.0.3",
     "@prisma/client": "^4.5.0",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
