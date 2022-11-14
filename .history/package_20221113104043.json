@@ -52,7 +52,7 @@
     "css-modules-typescript-loader": "^4.0.1",
     "graphql": "^16.6.0",
     "mui-color-input": "^1.0.2",
-    "next": "^12.3.3",
+    "next": "^12.0.0",
     "next-remove-imports": "^1.0.8",
     "next-transpile-modules": "^9.1.0",
     "node-sass": "^8.0.0",
@@ -62,8 +62,5 @@
     "react-router-dom": "^6.4.2",
     "react-scripts": "^5.0.1",
     "styled-components": "^5.3.6"
-  },
-  "optionalDependencies": {
-    "@next/swc-linux-x64-gnu": "12.3.2"
   }
 }

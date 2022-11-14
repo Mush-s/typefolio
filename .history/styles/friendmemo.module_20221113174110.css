@@ -11,7 +11,7 @@
   margin-bottom: 7px;
   width: 32%;
   height: 100%;
-  margin-left: 9px;
+  margin-left:8px;
   margin-right: 9px;
 }
 .friendmemo .done {
@@ -20,8 +20,7 @@
   margin-bottom: 7px;
   width: 32%;
   height: 100%;
-  margin-left: 9px;
-  margin-right: 9px;
+  margin-right: 15px;
 }
 
 .friendmemo .title {
