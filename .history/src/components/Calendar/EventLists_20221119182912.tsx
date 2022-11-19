@@ -93,7 +93,7 @@ const EventLists = (props: Props) => {
         />
 
         <TextField
-          sx={{ width: "20%" }}
+          sx={{ width: "15%" }}
           type="submit"
           value="CHANGE"
           onClick={(e) => editHandler(e)}
@@ -103,7 +103,7 @@ const EventLists = (props: Props) => {
         <TextField
           onClick={deleteHandler}
           value="DELETE"
-          sx={{ width: "20%" }}
+          sx={{ width: "15%" }}
         ></TextField>
       </form>
     </div>
