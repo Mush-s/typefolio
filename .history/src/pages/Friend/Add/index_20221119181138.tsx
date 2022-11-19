@@ -66,15 +66,14 @@ const AddFriend = () => {
           value={color}
           onChange={(color) => setColor(color)}
         /> */}
-        <div className={styles.flex}>
-          <div className={styles.color}>SELECT COLOR →</div>
-          <input
-            type="color"
-            value={color}
-            color={color}
-            onChange={(e) => setColor(e.target.value)}
-          />
-        </div>
+
+        <input
+          type="color"
+          value={color}
+          color={color}
+          onChange={(e) => setColor(e.target.value)}
+        />
+
         <Button type="submit">Submit</Button>
       </form>
     </div>

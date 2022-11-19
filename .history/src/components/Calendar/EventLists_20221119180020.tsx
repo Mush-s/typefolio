@@ -70,7 +70,7 @@ const EventLists = (props: Props) => {
         />
         <TextField
           type="text"
-          sx={{ width: "45%" }}
+          sx={{ width: "35%" }}
           label="Context"
           value={newContent}
           onChange={(e) => setNewContent(e.target.value)}
@@ -85,12 +85,7 @@ const EventLists = (props: Props) => {
           onChange={(color) => setNewColor(color)}
         /> */}
 
-        <input
-          type="color"
-          value={newColor}
-          color={newColor}
-          onChange={(e) => setNewColor(e.target.value)}
-        />
+        <input type="color" value="" className="colorbox" />
 
         <TextField
           sx={{ width: "15%" }}

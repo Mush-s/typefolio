@@ -89,7 +89,7 @@ const EventLists = (props: Props) => {
           type="color"
           value={newColor}
           color={newColor}
-          onChange={(e) => setNewColor(e.target.value)}
+        
         />
 
         <TextField

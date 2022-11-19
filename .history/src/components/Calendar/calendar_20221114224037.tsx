@@ -20,6 +20,7 @@ import { doReload } from "../../function/Reload";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import { MuiColorInput } from "mui-color-input";
 
+
 const Calendar: React.FC = () => {
   const [eventTitle, setEventTitle] = useState<string>("");
   const [eventContent, setEventContent] = useState<string>("");
@@ -176,20 +177,13 @@ const Calendar: React.FC = () => {
               label="Context"
               onChange={(e) => setEventContent(e.target.value)}
             />
-            {/* <MuiColorInput
+            <MuiColorInput
               sx={{ width: "15%" }}
               color={eventColor ? "primary" : "error"}
               variant="outlined"
               label="Color"
               value={eventColor}
               onChange={(color) => setEventColor(color)}
-            /> */}
-
-            <input
-              type="color"
-              value={eventColor}
-              color={eventColor}
-              onChange={(e) => setEventColor(e.target.value)}
             />
 
             <OutlinedInput

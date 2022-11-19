@@ -1,0 +1,16 @@
+li {
+  list-style: none;
+}
+
+ul {
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+  margin-block-end: 0;
+}
+
+input[type="color" i] .colorbox{
+  width: 23px;
+  vertical-align: -3px;
+  border: none;
+  background: none;
+}

@@ -88,8 +88,9 @@ const EventLists = (props: Props) => {
         <input
           type="color"
           value={newColor}
-          color={newColor}
-          onChange={(e) => setNewColor(e.target.value)}
+          color={newColor ? "primary" : "error"}
+          onChange={(e) => setNewColor(e)}
+
         />
 
         <TextField

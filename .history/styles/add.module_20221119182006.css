@@ -20,6 +20,7 @@
   border-radius: 4px;
   padding-top: 15px;
   padding-right: 17px;
+  margin-left:10px
 }
 .form input[type="color" i] {
   appearance: auto;

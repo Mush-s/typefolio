@@ -189,7 +189,7 @@ const Calendar: React.FC = () => {
               type="color"
               value={eventColor}
               color={eventColor}
-              onChange={(e) => setEventColor(e.target.value)}
+              onChange={(e) => seEventColor(e.target.value)}
             />
 
             <OutlinedInput

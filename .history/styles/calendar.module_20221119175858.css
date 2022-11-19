@@ -6,15 +6,15 @@
 .eventList {
   margin-bottom: 30px;
 }
-.eventList input[type="color" i] {
+.eventList .input[type="color" i] {
   appearance: auto;
-  width: 10%;
+  width: 9%;
   height: 55px;
   cursor: pointer;
   box-sizing: border-box;
-  /* border-width: 16px;
-  border-style: inset; */
-  /* border-color: white; */
+  border-width: 16px;
+  border-style: inset;
+  border-color: white;
   border-image: initial;
 }
 

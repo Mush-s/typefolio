@@ -10,12 +10,13 @@ ul {
 
 input[type="color" i] {
   appearance: auto;
-  width: 15%;
+  width: 14%;
   height: 55px;
   cursor: pointer;
   box-sizing: border-box;
-  border-width: 16px;
-  border-style: inset;
-  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: buttonborder;
   border-image: initial;
+  padding: 1px 2px;
 }

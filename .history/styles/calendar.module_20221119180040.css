@@ -8,7 +8,7 @@
 }
 .eventList input[type="color" i] {
   appearance: auto;
-  width: 10%;
+  width: 50%;
   height: 55px;
   cursor: pointer;
   box-sizing: border-box;

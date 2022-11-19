@@ -185,16 +185,11 @@ const Calendar: React.FC = () => {
               onChange={(color) => setEventColor(color)}
             /> */}
 
-            <input
-              type="color"
-              value={eventColor}
-              color={eventColor}
-              onChange={(e) => setEventColor(e.target.value)}
-            />
+            <input type="color" value="" className="colorbox" />
 
             <OutlinedInput
               type="submit"
-              sx={{ wdith: "10%" }}
+              sx={{ wdith: "5%" }}
               color={eventTitle ? "primary" : "error"}
             />
           </form>

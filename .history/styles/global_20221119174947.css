@@ -14,8 +14,9 @@ input[type="color" i] {
   height: 55px;
   cursor: pointer;
   box-sizing: border-box;
-  border-width: 16px;
-  border-style: inset;
-  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: buttonborder;
   border-image: initial;
+  padding: 0px 0px;
 }
