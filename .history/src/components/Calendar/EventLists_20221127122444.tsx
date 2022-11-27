@@ -63,7 +63,7 @@ const EventLists = (props: Props) => {
       <form>
         <TextField
           type="text"
-          sx={{ width: "10%", "&:hover": { width: "50%" } }}
+          sx={{ width: "10%", "&:hover": { width: "100%" } }}
           label="Title"
           value={newTitle}
           onChange={(e) => setNewTitle(e.target.value)}

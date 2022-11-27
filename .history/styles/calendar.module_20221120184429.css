@@ -18,7 +18,9 @@
   border-image: initial;
 }
 
-
+.eventList .hover :focus{
+  width: 100%;
+}
 
 @media screen and (min-width: 1200px) {
   .calendar .flex {

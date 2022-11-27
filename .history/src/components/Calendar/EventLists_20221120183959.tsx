@@ -62,15 +62,17 @@ const EventLists = (props: Props) => {
       )}
       <form>
         <TextField
+          className={styles.hover}
           type="text"
-          sx={{ width: "10%", "&:hover": { width: "50%" } }}
+          sx={{ width: "10%" }}
           label="Title"
           value={newTitle}
           onChange={(e) => setNewTitle(e.target.value)}
         />
         <TextField
+          className={styles.hover}
           type="text"
-          sx={{ width: "40%" , "&:hover": { width: "80%" }}}
+          sx={{ width: "30%" }}
           label="Context"
           value={newContent}
           onChange={(e) => setNewContent(e.target.value)}
@@ -93,7 +95,7 @@ const EventLists = (props: Props) => {
         />
 
         <TextField
-          sx={{ width: "20%"}}
+          sx={{ width: "20%" }}
           type="submit"
           value="CHANGE"
           onClick={(e) => editHandler(e)}
@@ -103,7 +105,7 @@ const EventLists = (props: Props) => {
         <TextField
           onClick={deleteHandler}
           value="DELETE"
-          sx={{ width: "15%" }}
+          sx={{ width: "20%" }}
         ></TextField>
       </form>
     </div>

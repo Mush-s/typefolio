@@ -18,7 +18,9 @@
   border-image: initial;
 }
 
-
+.hover:focus{
+  background-color: red;
+}
 
 @media screen and (min-width: 1200px) {
   .calendar .flex {
