@@ -3,6 +3,7 @@ import { Alert, TextField } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { UPDATE_POST, DELETE_POST } from "../../Prisma/Post";
 import { doReload } from "../../function/Reload";
+import { MuiColorInput } from "mui-color-input";
 import styles from "../../../styles/calendar.module.css";
 
 interface Props {
@@ -69,11 +70,20 @@ const EventLists = (props: Props) => {
         />
         <TextField
           type="text"
-          sx={{ width: "40%", "&:hover": { width: "80%" } }}
+          sx={{ width: "40%" , "&:hover": { width: "80%" }}}
           label="Context"
           value={newContent}
           onChange={(e) => setNewContent(e.target.value)}
         />
+        {/* 
+        <MuiColorInput
+          sx={{ width: "10%" }}
+          value={newColor}
+          color={newColor ? "primary" : "error"}
+          variant="outlined"
+          label="Color"
+          onChange={(color) => setNewColor(color)}
+        /> */}
 
         <input
           type="color"
@@ -83,7 +93,7 @@ const EventLists = (props: Props) => {
         />
 
         <TextField
-          sx={{ width: "20%" }}
+          sx={{ width: "20%"}}
           type="submit"
           value="CHANGE"
           onClick={(e) => editHandler(e)}

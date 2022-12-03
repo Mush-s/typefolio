@@ -69,11 +69,20 @@ const EventLists = (props: Props) => {
         />
         <TextField
           type="text"
-          sx={{ width: "40%", "&:hover": { width: "80%" } }}
+          sx={{ width: "40%" , "&:hover": { width: "80%" }}}
           label="Context"
           value={newContent}
           onChange={(e) => setNewContent(e.target.value)}
         />
+        {/* 
+        <MuiColorInput
+          sx={{ width: "10%" }}
+          value={newColor}
+          color={newColor ? "primary" : "error"}
+          variant="outlined"
+          label="Color"
+          onChange={(color) => setNewColor(color)}
+        /> */}
 
         <input
           type="color"
@@ -83,7 +92,7 @@ const EventLists = (props: Props) => {
         />
 
         <TextField
-          sx={{ width: "20%" }}
+          sx={{ width: "20%"}}
           type="submit"
           value="CHANGE"
           onClick={(e) => editHandler(e)}
