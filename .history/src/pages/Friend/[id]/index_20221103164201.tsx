@@ -10,7 +10,7 @@ const FriendContent = () => {
   const friendId = router.query.id;
   const { data, error, loading } = useQuery(GET_POSTS);
 
-  if (error) return <div>Maintenance or Something wrong </div>;
+  if (error) return <div>error</div>;
   if (loading) return <div>loading</div>;
 
   const { posts } = data;

@@ -12,7 +12,7 @@ export const friends = [];
 const FriendList = () => {
   const { data, error, loading } = useQuery(GET_FRIENDS);
   const [enteredName, setEnteredName] = useState<string>("");
-  if (error) return <div>Maintenance</div>;
+  if (error) return <div>Maintenance or Something wrong</div>;
   if (loading) return <CircularProgress />;
   const { friends } = data;
 

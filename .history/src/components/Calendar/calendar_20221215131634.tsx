@@ -51,7 +51,7 @@ const Calendar: React.FC = () => {
     }
   });
 
-  if (error) return <div>Maintaince</div>;
+  if (error) return <div>Maintaince or Something wrong</div>;
   if (loading) return <CircularProgress />;
 
   const { posts } = data;

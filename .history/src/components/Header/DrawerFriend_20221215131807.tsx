@@ -19,7 +19,7 @@ const DrawerFriend = () => {
   const [enteredName, setEnteredName] = useState("");
 
   if (loading) return <div>loading...</div>;
-  if (error) return <div>Maintenance</div>;
+  if (error) return <div>Maintenance or Something wrong </div>;
   const { friends } = data;
 
   const filteredFriend = Filter(friends, enteredName);

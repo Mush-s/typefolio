@@ -25,7 +25,7 @@ interface Props {
 const FriendMemo = (props: Props) => {
   const { data, error, loading } = useQuery(GET_FRIENDS);
   const [UpdatePost] = useMutation(UPDATE_POST);
-  if (error) return <div>Maintenance</div>;
+  if (error) return <div>Maintenance or Something wrong </div>;
   if (loading) return <CircularProgress />;
 
   const { friends } = data;
