@@ -18,7 +18,6 @@ import { useMutation, useQuery } from "@apollo/client";
 import { GET_POSTS, CREATE_POST } from "../../Prisma/Post";
 import { doReload } from "../../function/Reload";
 import OutlinedInput from "@mui/material/OutlinedInput";
-import { MuiColorInput } from "mui-color-input";
 
 const Calendar: React.FC = () => {
   const [eventTitle, setEventTitle] = useState<string>("");
