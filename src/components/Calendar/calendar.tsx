@@ -33,8 +33,12 @@ const Calendar: React.FC = () => {
 
   let day = new Date();
   let year = day.getFullYear();
-  let month = `"00" + ${day.getMonth() + 1}`.slice(-2);
+  let month = `${day.getMonth() + 1}`;
+  if (month.length === 1) {
+    month = `0${month}`;
+  }
   let date = ("00" + day.getDate()).slice(-2);
+
 
   const today = year + "-" + month + "-" + date;
   if (eventDay === "") setEventDay(today);
@@ -176,14 +180,6 @@ const Calendar: React.FC = () => {
               label="Context"
               onChange={(e) => setEventContent(e.target.value)}
             />
-            {/* <MuiColorInput
-              sx={{ width: "15%" }}
-              color={eventColor ? "primary" : "error"}
-              variant="outlined"
-              label="Color"
-              value={eventColor}
-              onChange={(color) => setEventColor(color)}
-            /> */}
 
             <input
               type="color"
